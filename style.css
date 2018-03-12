@@ -1,0 +1,62 @@
+body {
+  background-color: lightgrey;
+}
+
+body,
+input{
+  font-family: "Brush Script Std", cursive;
+  color: #363639;
+  font-size: 17px;
+}
+
+table {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.header {
+  font-family: "Brush Script Std", cursive;
+  font-size: 30px;
+  border: none;
+}
+
+
+th {
+  color: grey;
+  padding: 20px;
+  border-bottom: 2px solid #ddd;
+  font-size: 14px;
+}
+
+td {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.submit {
+  border-radius: 4px;
+  padding: 7px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mark:before {
+  font-size: 1.5em;
+  text-decoration: none;
+  content: "\2714";
+  color: #32CD32;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.delete:before {
+  font-size: 1.3em;
+  content: "\2718";
+  color: #FF6347;
+}
