@@ -1,6 +1,7 @@
 <?php
 
  require_once("init.php");
+
  $sql = "SELECT * FROM tasks";
  $tasks = $db->query($sql);
 
